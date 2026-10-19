@@ -5,16 +5,36 @@ body {
 
 .card {
   width: 400px;
-  background: white;
-  margin: 16px auto;
+  background: rgb(247, 245, 244);
+  margin: 10px;
+  padding: 8px;
 }
 
-.title,
-.content,
+.title{
+padding: 8px;
+font-size: 16px;
+margin-bottom: 16px;
+background-color: dodgerblue;
+}
+
+
+.content{
+  margin-bottom: 16px;
+  padding: 16px 8px;
+  background-color: dodgerblue;
+}
+
+
 .button-container {
-  background: dodgerblue;
+  text-align: center;
+  padding: 8px;
+  background-color: dodgerblue;
 }
 
 button {
+  display: block;
   background: white;
+  margin: 0 auto;
+  padding: 8px 24px;
+
 }
